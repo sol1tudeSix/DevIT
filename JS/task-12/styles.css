@@ -1,0 +1,75 @@
+*{
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #3efa8d, #ffadad )
+}
+
+small{
+    position: relative;
+    font-size: 14px;
+    color: red;
+    visibility: hidden;
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background:#faf0f2;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.container .title{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.container form .user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0 10px 0;
+}
+
+form .user-info .input-box{
+    margin-bottom: 10px;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-info .input-box input{
+    height: 35px;
+    width: 100%;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.user-info .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #3efa8d, #ffadad );
+    
+}
+
+.normal-btn{
+    font-size: 14px;
+    background: linear-gradient(90deg, #3efa8d, #ffadad );
+}

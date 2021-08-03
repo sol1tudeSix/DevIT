@@ -1,0 +1,66 @@
+body{
+    background-color: #d1ddf8;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center, .text-bottom-left, .text-top-right, .text-top-left, .text-bottom-right{
+    height: 360px;
+    width: 720px;
+    background: no-repeat url('header-photo.jpg');
+}
+
+.parent-textbox{
+    padding: 1em;
+    margin: 20px;
+    width: 130px;
+    height: min-content;
+    background: rgba(22, 21, 21, 0.7);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-box1{
+    margin-bottom: 10px;
+    height: auto;
+    max-width: fit-content;
+    color: white;
+    font-size: 20px;
+}
+
+.text-box2{
+    margin-bottom: 10px;
+    height: auto;
+    max-width: fit-content;
+    color: white;
+    font-size: 14px;
+}
+
+.text-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-bottom-left{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.text-top-right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text-top-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-bottom-right{
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+}

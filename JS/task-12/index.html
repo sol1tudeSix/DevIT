@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-HTML Task-04</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">Registration Form</div>
+        <form action="#">
+            <div class="user-info">
+                <div class="input-box">
+                    <span class="details">First Name:</span>
+                    <input type="text" name="firstName" placeholder="Enter your name">
+                    <small id="firstname-error">This field cannot be empty</small>
+
+                </div>
+                <div class="input-box">
+                    <span class="details">Last Name:</span>
+                    <input type="text" name="lastName" placeholder="Enter your surname">
+                    <small id="lastname-error">This field cannot be empty</small>
+
+                </div>
+                <div class="input-box">
+                    <span class="details">E-mail:</span>
+                    <input type="text" name="mail" placeholder="Enter your e-mail">
+                    <small id="mail-error">Incorrect e-mail</small>
+
+                </div>
+                <div class="input-box">
+                    <span class="details">Age:</span>
+                    <input type="text" name="age" placeholder="Enter your age">
+                    <small id="age-error">Incorrect age</small>
+
+                </div>
+                <div class="input-box">
+                    <span class="details">Avatar:</span>
+                    <input type="text" name="avatar" placeholder="Put URL here (.png files only and 1 MB limit)">
+                    <small id="avatar-error">Please .png files only and 1 MB limit</small>
+
+                </div>
+                <div class="input-box">
+                    <span class="details">Password:</span>
+                    <input type="password" name="pass" placeholder="Enter the password">
+                    <small id="password-error">Min 8 symbols(upper and lower case, min 1 integer and special symbol</small>
+
+                </div>
+                <div class="input-box">
+                    <button class="normal-btn" id="check">Check My Information</button>
+                </div>
+
+            </div>
+
+            <div class="button">
+                <input type="submit" id="register-btn"  disabled="disabled" value="Register Me!">
+            </div>
+
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

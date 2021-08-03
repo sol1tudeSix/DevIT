@@ -1,0 +1,13 @@
+#square{
+    margin: 20% auto;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    animation: 2s spinner ease-in-out infinite both;
+}
+
+@keyframes spinner{
+    from{transform: rotate(0);}
+
+    to {transform: rotate(360deg);}
+}
